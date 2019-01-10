@@ -24,14 +24,18 @@ def main():
     banned = [line.strip() for line in open(sys.argv[1], 'r')]
 
     # Compare
+    for a in user_input:
+        if
+
     print(user_input, end="")
     print()
     print(banned, end="")
     print()
     a = list(set(user_input) & set(banned))
 
-    print(a, end = "")
+    print(a, end="")
     print()
+    print(' '.join(a))
 
 
 
